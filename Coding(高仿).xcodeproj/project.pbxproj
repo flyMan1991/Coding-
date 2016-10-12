@@ -7,21 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040590831DAE10D900E80C3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405903A1DAE10D800E80C3D /* AppDelegate.m */; };
+		040590841DAE10D900E80C3D /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405904F1DAE10D800E80C3D /* Factory.m */; };
+		040590851DAE10D900E80C3D /* UIBarButtonItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590541DAE10D800E80C3D /* UIBarButtonItem+Addition.m */; };
+		040590861DAE10D900E80C3D /* UITableView+Refersh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405905B1DAE10D800E80C3D /* UITableView+Refersh.m */; };
+		040590871DAE10D900E80C3D /* Hudview.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405905E1DAE10D800E80C3D /* Hudview.m */; };
+		040590881DAE10D900E80C3D /* UIView+ColorGrad.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590601DAE10D800E80C3D /* UIView+ColorGrad.m */; };
+		040590891DAE10D900E80C3D /* UIViewController+NavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590631DAE10D800E80C3D /* UIViewController+NavBar.m */; };
+		0405908A1DAE10D900E80C3D /* CXApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405906D1DAE10D800E80C3D /* CXApiProxy.m */; };
+		0405908B1DAE10D900E80C3D /* CXAppNetworkingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590701DAE10D900E80C3D /* CXAppNetworkingStatus.m */; };
+		0405908C1DAE10D900E80C3D /* CXAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590731DAE10D900E80C3D /* CXAPIBaseManager.m */; };
+		0405908D1DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590761DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.m */; };
+		0405908E1DAE10D900E80C3D /* NSString+URLString_Append.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590781DAE10D900E80C3D /* NSString+URLString_Append.m */; };
+		0405908F1DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405907A1DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.m */; };
+		040590901DAE10D900E80C3D /* CXRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405907E1DAE10D900E80C3D /* CXRequestGenerator.m */; };
+		040590911DAE10D900E80C3D /* CXURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 040590811DAE10D900E80C3D /* CXURLResponse.m */; };
 		0479166B1DAE0BE100DA4DD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479166A1DAE0BE100DA4DD5 /* main.m */; };
-		0479166E1DAE0BE100DA4DD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0479166D1DAE0BE100DA4DD5 /* AppDelegate.m */; };
-		047916711DAE0BE100DA4DD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047916701DAE0BE100DA4DD5 /* ViewController.m */; };
 		047916741DAE0BE100DA4DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047916721DAE0BE100DA4DD5 /* Main.storyboard */; };
 		047916761DAE0BE200DA4DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047916751DAE0BE200DA4DD5 /* Assets.xcassets */; };
 		047916791DAE0BE200DA4DD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047916771DAE0BE200DA4DD5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040590391DAE10D800E80C3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0405903A1DAE10D800E80C3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0405904E1DAE10D800E80C3D /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		0405904F1DAE10D800E80C3D /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		040590531DAE10D800E80C3D /* UIBarButtonItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Addition.h"; sourceTree = "<group>"; };
+		040590541DAE10D800E80C3D /* UIBarButtonItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Addition.m"; sourceTree = "<group>"; };
+		0405905A1DAE10D800E80C3D /* UITableView+Refersh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Refersh.h"; sourceTree = "<group>"; };
+		0405905B1DAE10D800E80C3D /* UITableView+Refersh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Refersh.m"; sourceTree = "<group>"; };
+		0405905D1DAE10D800E80C3D /* Hudview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hudview.h; sourceTree = "<group>"; };
+		0405905E1DAE10D800E80C3D /* Hudview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hudview.m; sourceTree = "<group>"; };
+		0405905F1DAE10D800E80C3D /* UIView+ColorGrad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorGrad.h"; sourceTree = "<group>"; };
+		040590601DAE10D800E80C3D /* UIView+ColorGrad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorGrad.m"; sourceTree = "<group>"; };
+		040590621DAE10D800E80C3D /* UIViewController+NavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavBar.h"; sourceTree = "<group>"; };
+		040590631DAE10D800E80C3D /* UIViewController+NavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavBar.m"; sourceTree = "<group>"; };
+		0405906C1DAE10D800E80C3D /* CXApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXApiProxy.h; sourceTree = "<group>"; };
+		0405906D1DAE10D800E80C3D /* CXApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXApiProxy.m; sourceTree = "<group>"; };
+		0405906F1DAE10D900E80C3D /* CXAppNetworkingStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAppNetworkingStatus.h; sourceTree = "<group>"; };
+		040590701DAE10D900E80C3D /* CXAppNetworkingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAppNetworkingStatus.m; sourceTree = "<group>"; };
+		040590721DAE10D900E80C3D /* CXAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXAPIBaseManager.h; sourceTree = "<group>"; };
+		040590731DAE10D900E80C3D /* CXAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXAPIBaseManager.m; sourceTree = "<group>"; };
+		040590751DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CXAPIBaseManager+HandleDataResult.h"; sourceTree = "<group>"; };
+		040590761DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CXAPIBaseManager+HandleDataResult.m"; sourceTree = "<group>"; };
+		040590771DAE10D900E80C3D /* NSString+URLString_Append.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLString_Append.h"; sourceTree = "<group>"; };
+		040590781DAE10D900E80C3D /* NSString+URLString_Append.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLString_Append.m"; sourceTree = "<group>"; };
+		040590791DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+CXNetworkingMethods.h"; sourceTree = "<group>"; };
+		0405907A1DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+CXNetworkingMethods.m"; sourceTree = "<group>"; };
+		0405907B1DAE10D900E80C3D /* CXNetworkingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNetworkingConfiguration.h; sourceTree = "<group>"; };
+		0405907D1DAE10D900E80C3D /* CXRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXRequestGenerator.h; sourceTree = "<group>"; };
+		0405907E1DAE10D900E80C3D /* CXRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXRequestGenerator.m; sourceTree = "<group>"; };
+		040590801DAE10D900E80C3D /* CXURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXURLResponse.h; sourceTree = "<group>"; };
+		040590811DAE10D900E80C3D /* CXURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXURLResponse.m; sourceTree = "<group>"; };
 		047916661DAE0BE100DA4DD5 /* Coding(高仿).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coding(高仿).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0479166A1DAE0BE100DA4DD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0479166C1DAE0BE100DA4DD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0479166D1DAE0BE100DA4DD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0479166F1DAE0BE100DA4DD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		047916701DAE0BE100DA4DD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		047916731DAE0BE100DA4DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047916751DAE0BE200DA4DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047916781DAE0BE200DA4DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +79,1239 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040590361DAE10D800E80C3D /* ApiHeader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ApiHeader;
+			sourceTree = "<group>";
+		};
+		040590371DAE10D800E80C3D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				040590381DAE10D800E80C3D /* Controller */,
+				0405903B1DAE10D800E80C3D /* Model */,
+				0405903C1DAE10D800E80C3D /* Request */,
+				0405903D1DAE10D800E80C3D /* View */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		040590381DAE10D800E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040590391DAE10D800E80C3D /* AppDelegate.h */,
+				0405903A1DAE10D800E80C3D /* AppDelegate.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0405903B1DAE10D800E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0405903C1DAE10D800E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0405903D1DAE10D800E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0405903E1DAE10D800E80C3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0405903F1DAE10D800E80C3D /* Controller */,
+				040590401DAE10D800E80C3D /* Model */,
+				040590411DAE10D800E80C3D /* Request */,
+				040590421DAE10D800E80C3D /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0405903F1DAE10D800E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590401DAE10D800E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590411DAE10D800E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590421DAE10D800E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590431DAE10D800E80C3D /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				040590921DAE32F600E80C3D /* Bubbing */,
+				040590931DAE32F600E80C3D /* LoginAndRegister */,
+				040590A81DAE32F600E80C3D /* Mesetting */,
+				040590A91DAE32F600E80C3D /* Messge */,
+				040590AA1DAE32F600E80C3D /* Project */,
+				040590E21DAE32F600E80C3D /* Task */,
+				040590E31DAE32F600E80C3D /* UserInfo */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		040590441DAE10D800E80C3D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		040590451DAE10D800E80C3D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				040590461DAE10D800E80C3D /* Category */,
+				040590641DAE10D800E80C3D /* Custom */,
+				040590681DAE10D800E80C3D /* Resource */,
+				040590691DAE10D800E80C3D /* ThirdParty */,
+				040590821DAE10D900E80C3D /* Tool */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		040590461DAE10D800E80C3D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				040590471DAE10D800E80C3D /* Foundation */,
+				040590511DAE10D800E80C3D /* UIKit */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		040590471DAE10D800E80C3D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				040590481DAE10D800E80C3D /* Notification */,
+				040590491DAE10D800E80C3D /* NSArray */,
+				0405904A1DAE10D800E80C3D /* NSDate */,
+				0405904B1DAE10D800E80C3D /* NSDictionary */,
+				0405904C1DAE10D800E80C3D /* NSFileManager */,
+				0405904D1DAE10D800E80C3D /* NSObject */,
+				040590501DAE10D800E80C3D /* NSString */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		040590481DAE10D800E80C3D /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		040590491DAE10D800E80C3D /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		0405904A1DAE10D800E80C3D /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		0405904B1DAE10D800E80C3D /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		0405904C1DAE10D800E80C3D /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSFileManager;
+			sourceTree = "<group>";
+		};
+		0405904D1DAE10D800E80C3D /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				0405904E1DAE10D800E80C3D /* Factory.h */,
+				0405904F1DAE10D800E80C3D /* Factory.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		040590501DAE10D800E80C3D /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		040590511DAE10D800E80C3D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				040590521DAE10D800E80C3D /* UIBarButtoItem */,
+				040590551DAE10D800E80C3D /* UIButton */,
+				040590561DAE10D800E80C3D /* UIImage */,
+				040590571DAE10D800E80C3D /* UINavigationController */,
+				040590581DAE10D800E80C3D /* UITabBarItem */,
+				040590591DAE10D800E80C3D /* UITableView */,
+				0405905C1DAE10D800E80C3D /* UIView */,
+				040590611DAE10D800E80C3D /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		040590521DAE10D800E80C3D /* UIBarButtoItem */ = {
+			isa = PBXGroup;
+			children = (
+				040590531DAE10D800E80C3D /* UIBarButtonItem+Addition.h */,
+				040590541DAE10D800E80C3D /* UIBarButtonItem+Addition.m */,
+			);
+			path = UIBarButtoItem;
+			sourceTree = "<group>";
+		};
+		040590551DAE10D800E80C3D /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		040590561DAE10D800E80C3D /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		040590571DAE10D800E80C3D /* UINavigationController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UINavigationController;
+			sourceTree = "<group>";
+		};
+		040590581DAE10D800E80C3D /* UITabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITabBarItem;
+			sourceTree = "<group>";
+		};
+		040590591DAE10D800E80C3D /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				0405905A1DAE10D800E80C3D /* UITableView+Refersh.h */,
+				0405905B1DAE10D800E80C3D /* UITableView+Refersh.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		0405905C1DAE10D800E80C3D /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0405905D1DAE10D800E80C3D /* Hudview.h */,
+				0405905E1DAE10D800E80C3D /* Hudview.m */,
+				0405905F1DAE10D800E80C3D /* UIView+ColorGrad.h */,
+				040590601DAE10D800E80C3D /* UIView+ColorGrad.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		040590611DAE10D800E80C3D /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				040590621DAE10D800E80C3D /* UIViewController+NavBar.h */,
+				040590631DAE10D800E80C3D /* UIViewController+NavBar.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		040590641DAE10D800E80C3D /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				040590651DAE10D800E80C3D /* Controller */,
+				040590661DAE10D800E80C3D /* Tool */,
+				040590671DAE10D800E80C3D /* View */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		040590651DAE10D800E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590661DAE10D800E80C3D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		040590671DAE10D800E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590681DAE10D800E80C3D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		040590691DAE10D800E80C3D /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0405906A1DAE10D800E80C3D /* CXNetworking */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		0405906A1DAE10D800E80C3D /* CXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				0405906B1DAE10D800E80C3D /* APIProxy */,
+				0405906E1DAE10D900E80C3D /* AppNetworkingStatus */,
+				040590711DAE10D900E80C3D /* BaseAPIManager */,
+				040590741DAE10D900E80C3D /* Categories */,
+				0405907B1DAE10D900E80C3D /* CXNetworkingConfiguration.h */,
+				0405907C1DAE10D900E80C3D /* RequestGenerator */,
+				0405907F1DAE10D900E80C3D /* URLResponse */,
+			);
+			path = CXNetworking;
+			sourceTree = "<group>";
+		};
+		0405906B1DAE10D800E80C3D /* APIProxy */ = {
+			isa = PBXGroup;
+			children = (
+				0405906C1DAE10D800E80C3D /* CXApiProxy.h */,
+				0405906D1DAE10D800E80C3D /* CXApiProxy.m */,
+			);
+			path = APIProxy;
+			sourceTree = "<group>";
+		};
+		0405906E1DAE10D900E80C3D /* AppNetworkingStatus */ = {
+			isa = PBXGroup;
+			children = (
+				0405906F1DAE10D900E80C3D /* CXAppNetworkingStatus.h */,
+				040590701DAE10D900E80C3D /* CXAppNetworkingStatus.m */,
+			);
+			path = AppNetworkingStatus;
+			sourceTree = "<group>";
+		};
+		040590711DAE10D900E80C3D /* BaseAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				040590721DAE10D900E80C3D /* CXAPIBaseManager.h */,
+				040590731DAE10D900E80C3D /* CXAPIBaseManager.m */,
+			);
+			path = BaseAPIManager;
+			sourceTree = "<group>";
+		};
+		040590741DAE10D900E80C3D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				040590751DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.h */,
+				040590761DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.m */,
+				040590771DAE10D900E80C3D /* NSString+URLString_Append.h */,
+				040590781DAE10D900E80C3D /* NSString+URLString_Append.m */,
+				040590791DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.h */,
+				0405907A1DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0405907C1DAE10D900E80C3D /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				0405907D1DAE10D900E80C3D /* CXRequestGenerator.h */,
+				0405907E1DAE10D900E80C3D /* CXRequestGenerator.m */,
+			);
+			path = RequestGenerator;
+			sourceTree = "<group>";
+		};
+		0405907F1DAE10D900E80C3D /* URLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				040590801DAE10D900E80C3D /* CXURLResponse.h */,
+				040590811DAE10D900E80C3D /* CXURLResponse.m */,
+			);
+			path = URLResponse;
+			sourceTree = "<group>";
+		};
+		040590821DAE10D900E80C3D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		040590921DAE32F600E80C3D /* Bubbing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bubbing;
+			sourceTree = "<group>";
+		};
+		040590931DAE32F600E80C3D /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				040590941DAE32F600E80C3D /* Checking */,
+				040590991DAE32F600E80C3D /* FindPassword */,
+				0405909E1DAE32F600E80C3D /* Login */,
+				040590A31DAE32F600E80C3D /* Register */,
+			);
+			path = LoginAndRegister;
+			sourceTree = "<group>";
+		};
+		040590941DAE32F600E80C3D /* Checking */ = {
+			isa = PBXGroup;
+			children = (
+				040590951DAE32F600E80C3D /* Controller */,
+				040590961DAE32F600E80C3D /* Model */,
+				040590971DAE32F600E80C3D /* Request */,
+				040590981DAE32F600E80C3D /* View */,
+			);
+			path = Checking;
+			sourceTree = "<group>";
+		};
+		040590951DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590961DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590971DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590981DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590991DAE32F600E80C3D /* FindPassword */ = {
+			isa = PBXGroup;
+			children = (
+				0405909A1DAE32F600E80C3D /* Controller */,
+				0405909B1DAE32F600E80C3D /* Model */,
+				0405909C1DAE32F600E80C3D /* Request */,
+				0405909D1DAE32F600E80C3D /* View */,
+			);
+			path = FindPassword;
+			sourceTree = "<group>";
+		};
+		0405909A1DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0405909B1DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0405909C1DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0405909D1DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0405909E1DAE32F600E80C3D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0405909F1DAE32F600E80C3D /* Controller */,
+				040590A01DAE32F600E80C3D /* Model */,
+				040590A11DAE32F600E80C3D /* Request */,
+				040590A21DAE32F600E80C3D /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0405909F1DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590A01DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590A11DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590A21DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590A31DAE32F600E80C3D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				040590A41DAE32F600E80C3D /* Controller */,
+				040590A51DAE32F600E80C3D /* Model */,
+				040590A61DAE32F600E80C3D /* Request */,
+				040590A71DAE32F600E80C3D /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		040590A41DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590A51DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590A61DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590A71DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590A81DAE32F600E80C3D /* Mesetting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mesetting;
+			sourceTree = "<group>";
+		};
+		040590A91DAE32F600E80C3D /* Messge */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messge;
+			sourceTree = "<group>";
+		};
+		040590AA1DAE32F600E80C3D /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				040590AB1DAE32F600E80C3D /* Add */,
+				040590AC1DAE32F600E80C3D /* Home */,
+				040590B11DAE32F600E80C3D /* ProjectDetail */,
+				040590DF1DAE32F600E80C3D /* ProjectSquare */,
+				040590E01DAE32F600E80C3D /* Scanning */,
+				040590E11DAE32F600E80C3D /* Search */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		040590AB1DAE32F600E80C3D /* Add */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		040590AC1DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040590AD1DAE32F600E80C3D /* Controller */,
+				040590AE1DAE32F600E80C3D /* Model */,
+				040590AF1DAE32F600E80C3D /* Request */,
+				040590B01DAE32F600E80C3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590AD1DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590AE1DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590AF1DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590B01DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590B11DAE32F600E80C3D /* ProjectDetail */ = {
+			isa = PBXGroup;
+			children = (
+				040590B21DAE32F600E80C3D /* Code */,
+				040590B31DAE32F600E80C3D /* Discuss */,
+				040590B41DAE32F600E80C3D /* DynamicState */,
+				040590BF1DAE32F600E80C3D /* File */,
+				040590C01DAE32F600E80C3D /* History */,
+				040590C61DAE32F600E80C3D /* Home */,
+				040590CB1DAE32F600E80C3D /* Member */,
+				040590CC1DAE32F600E80C3D /* MergerRequest */,
+				040590CD1DAE32F600E80C3D /* ProjectSetting */,
+				040590DD1DAE32F600E80C3D /* README */,
+				040590DE1DAE32F600E80C3D /* Task */,
+			);
+			path = ProjectDetail;
+			sourceTree = "<group>";
+		};
+		040590B21DAE32F600E80C3D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		040590B31DAE32F600E80C3D /* Discuss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discuss;
+			sourceTree = "<group>";
+		};
+		040590B41DAE32F600E80C3D /* DynamicState */ = {
+			isa = PBXGroup;
+			children = (
+				040590B51DAE32F600E80C3D /* All */,
+				040590B61DAE32F600E80C3D /* Code */,
+				040590B71DAE32F600E80C3D /* Discuss */,
+				040590B81DAE32F600E80C3D /* DynamicStateDetail */,
+				040590B91DAE32F600E80C3D /* Home */,
+				040590BE1DAE32F600E80C3D /* Other */,
+			);
+			path = DynamicState;
+			sourceTree = "<group>";
+		};
+		040590B51DAE32F600E80C3D /* All */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		040590B61DAE32F600E80C3D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		040590B71DAE32F600E80C3D /* Discuss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discuss;
+			sourceTree = "<group>";
+		};
+		040590B81DAE32F600E80C3D /* DynamicStateDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DynamicStateDetail;
+			sourceTree = "<group>";
+		};
+		040590B91DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040590BA1DAE32F600E80C3D /* Controller */,
+				040590BB1DAE32F600E80C3D /* Model */,
+				040590BC1DAE32F600E80C3D /* Request */,
+				040590BD1DAE32F600E80C3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590BA1DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590BB1DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590BC1DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590BD1DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590BE1DAE32F600E80C3D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		040590BF1DAE32F600E80C3D /* File */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		040590C01DAE32F600E80C3D /* History */ = {
+			isa = PBXGroup;
+			children = (
+				040590C11DAE32F600E80C3D /* Home */,
+				040590C21DAE32F600E80C3D /* NewAdd */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		040590C11DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590C21DAE32F600E80C3D /* NewAdd */ = {
+			isa = PBXGroup;
+			children = (
+				040590C31DAE32F600E80C3D /* Edit */,
+				040590C41DAE32F600E80C3D /* Home */,
+				040590C51DAE32F600E80C3D /* Preview */,
+			);
+			path = NewAdd;
+			sourceTree = "<group>";
+		};
+		040590C31DAE32F600E80C3D /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		040590C41DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590C51DAE32F600E80C3D /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		040590C61DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040590C71DAE32F600E80C3D /* Controller */,
+				040590C81DAE32F600E80C3D /* Model */,
+				040590C91DAE32F600E80C3D /* Request */,
+				040590CA1DAE32F600E80C3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590C71DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590C81DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590C91DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590CA1DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590CB1DAE32F600E80C3D /* Member */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		040590CC1DAE32F600E80C3D /* MergerRequest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MergerRequest;
+			sourceTree = "<group>";
+		};
+		040590CD1DAE32F600E80C3D /* ProjectSetting */ = {
+			isa = PBXGroup;
+			children = (
+				040590CE1DAE32F600E80C3D /* Home */,
+				040590D31DAE32F600E80C3D /* ProjectDelete */,
+				040590D81DAE32F600E80C3D /* ProjectTransfer */,
+			);
+			path = ProjectSetting;
+			sourceTree = "<group>";
+		};
+		040590CE1DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040590CF1DAE32F600E80C3D /* Controller */,
+				040590D01DAE32F600E80C3D /* Model */,
+				040590D11DAE32F600E80C3D /* Request */,
+				040590D21DAE32F600E80C3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590CF1DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590D01DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590D11DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590D21DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590D31DAE32F600E80C3D /* ProjectDelete */ = {
+			isa = PBXGroup;
+			children = (
+				040590D41DAE32F600E80C3D /* Controller */,
+				040590D51DAE32F600E80C3D /* Model */,
+				040590D61DAE32F600E80C3D /* Request */,
+				040590D71DAE32F600E80C3D /* View */,
+			);
+			path = ProjectDelete;
+			sourceTree = "<group>";
+		};
+		040590D41DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590D51DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590D61DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590D71DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590D81DAE32F600E80C3D /* ProjectTransfer */ = {
+			isa = PBXGroup;
+			children = (
+				040590D91DAE32F600E80C3D /* Controller */,
+				040590DA1DAE32F600E80C3D /* Model */,
+				040590DB1DAE32F600E80C3D /* Request */,
+				040590DC1DAE32F600E80C3D /* View */,
+			);
+			path = ProjectTransfer;
+			sourceTree = "<group>";
+		};
+		040590D91DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590DA1DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590DB1DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590DC1DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590DD1DAE32F600E80C3D /* README */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = README;
+			sourceTree = "<group>";
+		};
+		040590DE1DAE32F600E80C3D /* Task */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		040590DF1DAE32F600E80C3D /* ProjectSquare */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProjectSquare;
+			sourceTree = "<group>";
+		};
+		040590E01DAE32F600E80C3D /* Scanning */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scanning;
+			sourceTree = "<group>";
+		};
+		040590E11DAE32F600E80C3D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		040590E21DAE32F600E80C3D /* Task */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		040590E31DAE32F600E80C3D /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				040590E41DAE32F600E80C3D /* Home */,
+				040590E91DAE32F600E80C3D /* UserBubbing */,
+				040590EA1DAE32F600E80C3D /* UserDetailInfo */,
+				040590EF1DAE32F600E80C3D /* UserProject */,
+				040590F31DAE32F600E80C3D /* UserTopic */,
+			);
+			path = UserInfo;
+			sourceTree = "<group>";
+		};
+		040590E41DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040590E51DAE32F600E80C3D /* Controller */,
+				040590E61DAE32F600E80C3D /* Model */,
+				040590E71DAE32F600E80C3D /* Request */,
+				040590E81DAE32F600E80C3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590E51DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590E61DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590E71DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590E81DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590E91DAE32F600E80C3D /* UserBubbing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserBubbing;
+			sourceTree = "<group>";
+		};
+		040590EA1DAE32F600E80C3D /* UserDetailInfo */ = {
+			isa = PBXGroup;
+			children = (
+				040590EB1DAE32F600E80C3D /* Controller */,
+				040590EC1DAE32F600E80C3D /* Model */,
+				040590ED1DAE32F600E80C3D /* Request */,
+				040590EE1DAE32F600E80C3D /* View */,
+			);
+			path = UserDetailInfo;
+			sourceTree = "<group>";
+		};
+		040590EB1DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590EC1DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590ED1DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590EE1DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590EF1DAE32F600E80C3D /* UserProject */ = {
+			isa = PBXGroup;
+			children = (
+				040590F01DAE32F600E80C3D /* Home */,
+				040590F11DAE32F600E80C3D /* MyCollect */,
+				040590F21DAE32F600E80C3D /* MyJoin */,
+			);
+			path = UserProject;
+			sourceTree = "<group>";
+		};
+		040590F01DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590F11DAE32F600E80C3D /* MyCollect */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyCollect;
+			sourceTree = "<group>";
+		};
+		040590F21DAE32F600E80C3D /* MyJoin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyJoin;
+			sourceTree = "<group>";
+		};
+		040590F31DAE32F600E80C3D /* UserTopic */ = {
+			isa = PBXGroup;
+			children = (
+				040590F41DAE32F600E80C3D /* Home */,
+				040590F91DAE32F600E80C3D /* MyAttention */,
+				040590FA1DAE32F600E80C3D /* MyJoin */,
+			);
+			path = UserTopic;
+			sourceTree = "<group>";
+		};
+		040590F41DAE32F600E80C3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				040590F51DAE32F600E80C3D /* Controller */,
+				040590F61DAE32F600E80C3D /* Model */,
+				040590F71DAE32F600E80C3D /* Request */,
+				040590F81DAE32F600E80C3D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		040590F51DAE32F600E80C3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040590F61DAE32F600E80C3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040590F71DAE32F600E80C3D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		040590F81DAE32F600E80C3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040590F91DAE32F600E80C3D /* MyAttention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyAttention;
+			sourceTree = "<group>";
+		};
+		040590FA1DAE32F600E80C3D /* MyJoin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyJoin;
+			sourceTree = "<group>";
+		};
 		0479165D1DAE0BE100DA4DD5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +1331,12 @@
 		047916681DAE0BE100DA4DD5 /* Coding(高仿) */ = {
 			isa = PBXGroup;
 			children = (
-				0479166C1DAE0BE100DA4DD5 /* AppDelegate.h */,
-				0479166D1DAE0BE100DA4DD5 /* AppDelegate.m */,
-				0479166F1DAE0BE100DA4DD5 /* ViewController.h */,
-				047916701DAE0BE100DA4DD5 /* ViewController.m */,
+				040590361DAE10D800E80C3D /* ApiHeader */,
+				040590371DAE10D800E80C3D /* Application */,
+				0405903E1DAE10D800E80C3D /* Base */,
+				040590431DAE10D800E80C3D /* Content */,
+				040590441DAE10D800E80C3D /* Main */,
+				040590451DAE10D800E80C3D /* Other */,
 				047916721DAE0BE100DA4DD5 /* Main.storyboard */,
 				047916751DAE0BE200DA4DD5 /* Assets.xcassets */,
 				047916771DAE0BE200DA4DD5 /* LaunchScreen.storyboard */,
@@ -151,9 +1426,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047916711DAE0BE100DA4DD5 /* ViewController.m in Sources */,
-				0479166E1DAE0BE100DA4DD5 /* AppDelegate.m in Sources */,
+				0405908A1DAE10D900E80C3D /* CXApiProxy.m in Sources */,
+				040590891DAE10D900E80C3D /* UIViewController+NavBar.m in Sources */,
+				040590841DAE10D900E80C3D /* Factory.m in Sources */,
+				040590871DAE10D900E80C3D /* Hudview.m in Sources */,
+				0405908E1DAE10D900E80C3D /* NSString+URLString_Append.m in Sources */,
+				0405908C1DAE10D900E80C3D /* CXAPIBaseManager.m in Sources */,
+				0405908F1DAE10D900E80C3D /* NSURLRequest+CXNetworkingMethods.m in Sources */,
+				0405908D1DAE10D900E80C3D /* CXAPIBaseManager+HandleDataResult.m in Sources */,
 				0479166B1DAE0BE100DA4DD5 /* main.m in Sources */,
+				040590901DAE10D900E80C3D /* CXRequestGenerator.m in Sources */,
+				040590851DAE10D900E80C3D /* UIBarButtonItem+Addition.m in Sources */,
+				040590911DAE10D900E80C3D /* CXURLResponse.m in Sources */,
+				0405908B1DAE10D900E80C3D /* CXAppNetworkingStatus.m in Sources */,
+				040590831DAE10D900E80C3D /* AppDelegate.m in Sources */,
+				040590881DAE10D900E80C3D /* UIView+ColorGrad.m in Sources */,
+				040590861DAE10D900E80C3D /* UITableView+Refersh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +1562,7 @@
 				DEVELOPMENT_TEAM = 785U7NKS34;
 				INFOPLIST_FILE = "Coding(高仿)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ces.aiot.MVVM.Coding----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ces.aiot.ss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -286,7 +1574,7 @@
 				DEVELOPMENT_TEAM = 785U7NKS34;
 				INFOPLIST_FILE = "Coding(高仿)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ces.aiot.MVVM.Coding----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ces.aiot.ss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -310,6 +1598,7 @@
 				0479167F1DAE0BE200DA4DD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
